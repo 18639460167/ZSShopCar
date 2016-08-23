@@ -15,6 +15,17 @@
 		A95009A41D6592AB0061E43D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95009A21D6592AB0061E43D /* LaunchScreen.storyboard */; };
 		A95009AF1D6592AB0061E43D /* ZSShopCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A95009AE1D6592AB0061E43D /* ZSShopCarTests.m */; };
 		A95009BA1D6592AB0061E43D /* ZSShopCarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A95009B91D6592AB0061E43D /* ZSShopCarUITests.m */; };
+		A95009C91D65933A0061E43D /* CarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A95009C81D65933A0061E43D /* CarModel.m */; };
+		A95009CD1D6594770061E43D /* CarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A95009CB1D6594770061E43D /* CarTableViewCell.m */; };
+		A95009CE1D6594770061E43D /* CarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A95009CC1D6594770061E43D /* CarTableViewCell.xib */; };
+		A95009D11D6595250061E43D /* cart_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A95009CF1D6595250061E43D /* cart_1.png */; };
+		A95009D21D6595250061E43D /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = A95009D01D6595250061E43D /* cart.png */; };
+		A95009D41D65953B0061E43D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A95009D31D65953B0061E43D /* 1.png */; };
+		A95009D61D6598340061E43D /* Minus.png in Resources */ = {isa = PBXBuildFile; fileRef = A95009D51D6598340061E43D /* Minus.png */; };
+		A95009D81D65983F0061E43D /* Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A95009D71D65983F0061E43D /* Plus.png */; };
+		A9D5BD501D6A97B90043CC70 /* ZSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D5BD4F1D6A97B90043CC70 /* ZSViewController.m */; };
+		A9D5BD541D6A97D70043CC70 /* SelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D5BD521D6A97D70043CC70 /* SelectTableViewCell.m */; };
+		A9D5BD551D6A97D70043CC70 /* SelectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D5BD531D6A97D70043CC70 /* SelectTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,21 @@
 		A95009B51D6592AB0061E43D /* ZSShopCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSShopCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95009B91D6592AB0061E43D /* ZSShopCarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSShopCarUITests.m; sourceTree = "<group>"; };
 		A95009BB1D6592AB0061E43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95009C71D65933A0061E43D /* CarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarModel.h; sourceTree = "<group>"; };
+		A95009C81D65933A0061E43D /* CarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarModel.m; sourceTree = "<group>"; };
+		A95009CA1D6594770061E43D /* CarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTableViewCell.h; sourceTree = "<group>"; };
+		A95009CB1D6594770061E43D /* CarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTableViewCell.m; sourceTree = "<group>"; };
+		A95009CC1D6594770061E43D /* CarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarTableViewCell.xib; sourceTree = "<group>"; };
+		A95009CF1D6595250061E43D /* cart_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart_1.png; sourceTree = "<group>"; };
+		A95009D01D6595250061E43D /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		A95009D31D65953B0061E43D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		A95009D51D6598340061E43D /* Minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Minus.png; sourceTree = "<group>"; };
+		A95009D71D65983F0061E43D /* Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plus.png; sourceTree = "<group>"; };
+		A9D5BD4E1D6A97B90043CC70 /* ZSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSViewController.h; sourceTree = "<group>"; };
+		A9D5BD4F1D6A97B90043CC70 /* ZSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSViewController.m; sourceTree = "<group>"; };
+		A9D5BD511D6A97D70043CC70 /* SelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectTableViewCell.h; sourceTree = "<group>"; };
+		A9D5BD521D6A97D70043CC70 /* SelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTableViewCell.m; sourceTree = "<group>"; };
+		A9D5BD531D6A97D70043CC70 /* SelectTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +131,10 @@
 				A95009981D6592AB0061E43D /* AppDelegate.m */,
 				A950099A1D6592AB0061E43D /* ViewController.h */,
 				A950099B1D6592AB0061E43D /* ViewController.m */,
+				A9D5BD561D6A9F990043CC70 /* 单选 */,
+				A95009D91D65A91C0061E43D /* 购物车 */,
 				A950099D1D6592AB0061E43D /* Main.storyboard */,
+				A95009DA1D65A9360061E43D /* images */,
 				A95009A01D6592AB0061E43D /* Assets.xcassets */,
 				A95009A21D6592AB0061E43D /* LaunchScreen.storyboard */,
 				A95009A51D6592AB0061E43D /* Info.plist */,
@@ -138,6 +167,42 @@
 				A95009BB1D6592AB0061E43D /* Info.plist */,
 			);
 			path = ZSShopCarUITests;
+			sourceTree = "<group>";
+		};
+		A95009D91D65A91C0061E43D /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				A95009CA1D6594770061E43D /* CarTableViewCell.h */,
+				A95009CB1D6594770061E43D /* CarTableViewCell.m */,
+				A95009CC1D6594770061E43D /* CarTableViewCell.xib */,
+				A95009C71D65933A0061E43D /* CarModel.h */,
+				A95009C81D65933A0061E43D /* CarModel.m */,
+			);
+			name = "购物车";
+			sourceTree = "<group>";
+		};
+		A95009DA1D65A9360061E43D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A95009CF1D6595250061E43D /* cart_1.png */,
+				A95009D01D6595250061E43D /* cart.png */,
+				A95009D31D65953B0061E43D /* 1.png */,
+				A95009D51D6598340061E43D /* Minus.png */,
+				A95009D71D65983F0061E43D /* Plus.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		A9D5BD561D6A9F990043CC70 /* 单选 */ = {
+			isa = PBXGroup;
+			children = (
+				A9D5BD4E1D6A97B90043CC70 /* ZSViewController.h */,
+				A9D5BD4F1D6A97B90043CC70 /* ZSViewController.m */,
+				A9D5BD511D6A97D70043CC70 /* SelectTableViewCell.h */,
+				A9D5BD521D6A97D70043CC70 /* SelectTableViewCell.m */,
+				A9D5BD531D6A97D70043CC70 /* SelectTableViewCell.xib */,
+			);
+			name = "单选";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +308,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A95009D81D65983F0061E43D /* Plus.png in Resources */,
+				A95009D61D6598340061E43D /* Minus.png in Resources */,
 				A95009A41D6592AB0061E43D /* LaunchScreen.storyboard in Resources */,
 				A95009A11D6592AB0061E43D /* Assets.xcassets in Resources */,
+				A95009CE1D6594770061E43D /* CarTableViewCell.xib in Resources */,
+				A9D5BD551D6A97D70043CC70 /* SelectTableViewCell.xib in Resources */,
+				A95009D11D6595250061E43D /* cart_1.png in Resources */,
 				A950099F1D6592AB0061E43D /* Main.storyboard in Resources */,
+				A95009D21D6595250061E43D /* cart.png in Resources */,
+				A95009D41D65953B0061E43D /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +342,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A95009CD1D6594770061E43D /* CarTableViewCell.m in Sources */,
+				A95009C91D65933A0061E43D /* CarModel.m in Sources */,
 				A950099C1D6592AB0061E43D /* ViewController.m in Sources */,
 				A95009991D6592AB0061E43D /* AppDelegate.m in Sources */,
 				A95009961D6592AB0061E43D /* main.m in Sources */,
+				A9D5BD501D6A97B90043CC70 /* ZSViewController.m in Sources */,
+				A9D5BD541D6A97D70043CC70 /* SelectTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +574,7 @@
 				A95009C01D6592AB0061E43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A95009C11D6592AB0061E43D /* Build configuration list for PBXNativeTarget "ZSShopCarTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +583,7 @@
 				A95009C31D6592AB0061E43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A95009C41D6592AB0061E43D /* Build configuration list for PBXNativeTarget "ZSShopCarUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +592,7 @@
 				A95009C61D6592AB0061E43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
